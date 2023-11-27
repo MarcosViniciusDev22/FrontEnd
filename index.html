@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Bluestore / E-commerce</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="navbar show-menu">
+       <div class="header-inner-content">
+        <h1 class="logo">BLUE<span>STORE</span></h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>produtos</li>
+                <li>sobre</li>
+                <li>Contatos</li>
+                <li>conta</li>
+            </ul>
+        </nav>
+        <div class="nav-icon-container">
+            <img src="images/cart.png">
+            <img src="images/menu.png" class="menu-button">
+        </div>
+       </div>
+    </div>
+    <header>
+        <div class="header-inner-content">
+            <div class="header-button-side">
+                <div class="header-button-side-left">
+                    <h2>De um novo estilo ao seu trabalho</h2>
+                    <p>Sucesso nem sempre tem haver com grandeza. Tem haver com consistência. Trabalho duro consistente supera o sucesso. A gradeza virá.</p>
+                    <button>Ver agora</button>
+                </div>
+                <div class="header-button-side-right">
+                    <img src="images/gaming-msi-header.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--main content-->
+
+    <main>
+        <div class="grey-background">
+            <div class="page-inner-content">
+                <div class="coluns coluns-3">
+                    <img src="images/products/product-1.png" alt="">
+                    <img src="images/products/product-2.png" alt="">
+                    <img src="images/products/product-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="page-inner-content">
+                <h3>Produtos selecionados</h3>
+                <div class="subtitle-underline"></div>
+                <div coluns coluns-4>
+                    <div>
+                        <img src="" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button")
+
+         menuButton.addEventListener("click", () =>{
+           navbar.classList.toggle("show-menu");
+        });
+    </script>
+</body>
+</html>
